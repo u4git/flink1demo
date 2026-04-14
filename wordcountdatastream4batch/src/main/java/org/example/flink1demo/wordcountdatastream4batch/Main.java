@@ -16,7 +16,7 @@ import org.apache.flink.util.Collector;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("flinkdemo1 wordcountdatastream4batch...");
+        System.out.println("flink1demo wordcountdatastream4batch...");
 
         // 创建环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
@@ -60,6 +60,6 @@ public class Main {
         // 执行
         env.execute();
 
-        System.out.println("flinkdemo1 wordcountdatastream4batch...");
+        System.out.println("flink1demo wordcountdatastream4batch...");
     }
 }

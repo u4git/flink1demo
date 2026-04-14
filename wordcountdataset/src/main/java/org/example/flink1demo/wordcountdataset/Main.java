@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("flinkdemo1 wordcountdataset...");
+        System.out.println("flink1demo wordcountdataset...");
 
         // 创建环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
@@ -43,6 +43,6 @@ public class Main {
         // 打印结果
         wordCount.print();
 
-        System.out.println("flinkdemo1 wordcountdataset...done.");
+        System.out.println("flink1demo wordcountdataset...done.");
     }
 }

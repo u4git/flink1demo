@@ -18,7 +18,7 @@ import org.apache.flink.util.Collector;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("flinkdemo1 wordcountdatastream4stream...");
+        System.out.println("flink1demo wordcountdatastream4stream...");
 
         // 创建环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
@@ -62,6 +62,6 @@ public class Main {
         // 执行
         env.execute();
 
-        System.out.println("flinkdemo1 wordcountdatastream4stream...");
+        System.out.println("flink1demo wordcountdatastream4stream...");
     }
 }
