@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$APPLICATION_HOME_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedataset/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedataset/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4batch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4batch/wordcountdatastream4stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4batch/wordcountdatastream4stream/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filedatastream4stream/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdataset/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdataset/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4batch/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4batch/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4batch/wordcountdatastream4stream/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4batch/wordcountdatastream4stream/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4stream/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wordcountdatastream4stream/src/main/resources" charset="UTF-8" />
   </component>
 </project>

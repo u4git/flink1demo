@@ -1,4 +1,4 @@
-package org.example.flink1demo.wordcountdataset;
+package org.example.flink1demo.filedataset;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("flink1demo wordcountdataset...");
+        System.out.println("flink1demo filedataset...");
 
         // 创建环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
@@ -41,8 +41,8 @@ public class Main {
         AggregateOperator<Tuple2<String, Integer>> wordCount = wordGroups.sum(1);
 
         // 打印结果
-        wordCount.print();
+        wordCount.print("filedataset");
 
-        System.out.println("flink1demo wordcountdataset...done.");
+        System.out.println("flink1demo filedataset...done.");
     }
 }

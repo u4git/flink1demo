@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>wordcountdatastream4batch</artifactId>
+    <artifactId>filedatastream4stream</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

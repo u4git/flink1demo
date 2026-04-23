@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>wordcountdataset</module>
-        <module>wordcountdatastream4batch</module>
-        <module>wordcountdatastream4stream</module>
+        <module>filedataset</module>
+        <module>filedatastream4batch</module>
+        <module>filedatastream4stream</module>
     </modules>
 
     <properties>

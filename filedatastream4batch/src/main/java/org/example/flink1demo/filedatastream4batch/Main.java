@@ -1,4 +1,4 @@
-package org.example.flink1demo.wordcountdatastream4batch;
+package org.example.flink1demo.filedatastream4batch;
 
 import org.apache.flink.api.common.RuntimeExecutionMode;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
@@ -16,7 +16,7 @@ import org.apache.flink.util.Collector;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("flink1demo wordcountdatastream4batch...");
+        System.out.println("flink1demo filedatastream4batch...");
 
         // 创建环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
@@ -58,8 +58,8 @@ public class Main {
         wordCount.print();
 
         // 执行
-        env.execute();
+        env.execute("filedatastream4batch");
 
-        System.out.println("flink1demo wordcountdatastream4batch...");
+        System.out.println("flink1demo filedatastream4batch...");
     }
 }
